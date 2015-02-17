@@ -1,0 +1,109 @@
+--DreamHack Open Input mapping
+--NOTE: because black counts as input 1, all camera inputs need to be shifted +1
+--1 = black
+--2 = Arena1
+--3 = Arena2
+--4 = Arena3 = beauty
+--5 = Arena4
+--6 = ingame #1
+--7 = ingame #2 (csgo only)
+--8 = studio1
+--9 = studio2
+--10 = Instant Replay 1 (csgo only)
+--11 = Instant Replay 2 (csgo only)
+--12 = 
+--13 = 
+--14 = 
+--15 = 
+--16 = 
+--17 = 
+--18 = 
+--19 = 
+--20 = DSK Fill
+--21 = DSK Key
+
+
+if ( ATEMMixerMEGetProgramInput( 2, 1) == 1 ) then
+ATEMMixerMESetProgramInput (2, 2, 1);
+end;
+
+if ( ATEMMixerMEGetProgramInput( 2, 1) == 2 ) then
+ATEMMixerMESetProgramInput (2, 2, 2);
+VSLog( "Switch succesful source 2");
+end;
+
+if ( ATEMMixerMEGetProgramInput( 2, 1) == 3 ) then
+ATEMMixerMESetProgramInput (2, 2, 3);
+end;
+
+if ( ATEMMixerMEGetProgramInput( 2, 1) == 4 ) then
+ATEMMixerMESetProgramInput (2, 2, 4);
+end;
+
+if ( ATEMMixerMEGetProgramInput( 2, 1) == 5 ) then
+ATEMMixerMESetProgramInput (2, 2, 5);
+end;
+
+if ( ATEMMixerMEGetProgramInput( 2, 1) == 6 ) then
+ATEMMixerMESetProgramInput (2, 2, 4);
+end;
+
+if ( ATEMMixerMEGetProgramInput( 2, 1) == 7 ) then
+ATEMMixerMESetProgramInput (2, 2, 4);
+end;
+
+if ( ATEMMixerMEGetProgramInput( 2, 1) == 8 ) then
+ATEMMixerMESetProgramInput (2, 2, 4);
+end;
+
+if ( ATEMMixerMEGetProgramInput( 2, 1) == 9 ) then
+ATEMMixerMESetProgramInput (2, 2, 9);
+end;
+
+if ( ATEMMixerMEGetProgramInput( 2, 1) == 10 ) then
+ATEMMixerMESetProgramInput (2, 2, 10);
+end;
+
+if ( ATEMMixerMEGetProgramInput( 2, 1) == 11 ) then
+ATEMMixerMESetProgramInput (2, 2, 11);
+end;
+
+if ( ATEMMixerMEGetProgramInput( 2, 1) == 12 ) then
+ATEMMixerMESetProgramInput (2, 2, 12);
+end;
+
+if ( ATEMMixerMEGetProgramInput( 2, 1) == 13 ) then
+ATEMMixerMESetProgramInput (2, 2, 13);
+end;
+
+if ( ATEMMixerMEGetProgramInput( 2, 1) == 14 ) then
+ATEMMixerMESetProgramInput (2, 2, 14);
+end;
+
+if ( ATEMMixerMEGetProgramInput( 2, 1) == 15 ) then
+ATEMMixerMESetProgramInput (2, 2, 15);
+end;
+
+if ( ATEMMixerMEGetProgramInput( 2, 1) == 16 ) then
+ATEMMixerMESetProgramInput (2, 2, 16);
+end;
+
+if ( ATEMMixerMEGetProgramInput( 2, 1) == 17 ) then
+ATEMMixerMESetProgramInput (2, 2, 17);
+end;
+
+if ( ATEMMixerMEGetProgramInput( 2, 1) == 18 ) then
+ATEMMixerMESetProgramInput (2, 2, 18);
+end;
+
+if ( ATEMMixerMEGetProgramInput( 2, 1) == 19 ) then
+ATEMMixerMESetProgramInput (2, 2, 19);
+end;
+
+if ( ATEMMixerMEGetProgramInput( 2, 1) == 20 ) then
+ATEMMixerMESetProgramInput (2, 2, 20);
+end;
+
+if ( ATEMMixerMEGetProgramInput( 2, 1) == 21 ) then
+ATEMMixerMESetProgramInput (2, 2, 21);
+end;
