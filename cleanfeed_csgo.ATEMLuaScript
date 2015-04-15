@@ -5,7 +5,8 @@
 --3 = Arena2CCU SAFE
 --4 = Arena3CCU SAFE
 --5 = Arena4-Tournament SAFE
---6 = Beauty750 SAFE
+--6 = TournamentBeauty SAFE
+--7 = StageBeauty SAFE
 --7 = Studio1PTZ UNSAFE
 --8 = Studio2PTZ UNSAFE
 --9 = Studio3PTZ UNSAFE
@@ -13,8 +14,8 @@
 --11 = Ingame #2 (CSGO ONLY) BACKUP SAFE
 --12 = Instant Replay 1(csgo only) SAFE
 --13 = Instant Replay 2(csgo only) SAFE
---14 = PIP Generator SAFE
---15 = 5 by 5 player PIP SAFE
+--14 = PIP Generator SAFE - Decklink 1-1
+--15 = 5 by 5 player PIP SAFE - Decklink 
 --16 =
 --17 =
 --18 =
